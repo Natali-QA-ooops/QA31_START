@@ -27,7 +27,7 @@ public class PhoneBookTests {
 
         inputEmail.click();
         inputEmail.clear();
-        inputEmail.sendKeys("Mamy133456@mail.com");
+        inputEmail.sendKeys("Mamy183456@mail.com");
 
         inputPass.click();
         inputPass.clear();
