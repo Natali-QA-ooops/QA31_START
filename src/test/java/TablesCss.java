@@ -20,25 +20,25 @@ public class TablesCss {
         wd.findElement(By.cssSelector("table"));
 
         // tr9 - one element
-        wd.findElement(By.cssSelector("table tbody tr:nth-child(9)"));
+        wd.findElement(By.cssSelector("tr:last-child"));
 
         //Maria Anders - one element
         wd.findElement(By.cssSelector("tr:nth-child(2) td:nth-child(2)"));
 
         // last column  -all elements
-        wd.findElement(By.cssSelector("table tbody tr td:last-child"));
+        wd.findElements(By.cssSelector("td:last-child"));
 
         // th elements
-        wd.findElements(By.cssSelector("table th"));
+        wd.findElements(By.cssSelector("th"));
 
         //Centro comercial Moctezuma	Francisco Chang	Mexico -  one element
-        wd.findElement(By.cssSelector("table tbody tr:nth-child(4)"));
+        wd.findElement(By.cssSelector("tr:nth-child(4)"));
 
         //	Giovanni Rovelli  = one element
-        wd.findElement(By.cssSelector("table tbody tr:last-child td:nth-child(2)"));
+        wd.findElement(By.cssSelector("tr:last-child td:nth-child(2)"));
 
         // найти все элементы первой колонки -   // first column - all element
-        wd.findElement(By.cssSelector("table tbody tr td:first-child"));
+        wd.findElements(By.cssSelector("td:first-child"));
 
     }
 }
