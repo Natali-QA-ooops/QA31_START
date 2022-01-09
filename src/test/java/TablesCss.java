@@ -19,6 +19,7 @@ public class TablesCss {
         //найти таблицу
         wd.findElement(By.cssSelector("table"));
 
+
         // tr9 - one element
         wd.findElement(By.cssSelector("tr:last-child"));
 
